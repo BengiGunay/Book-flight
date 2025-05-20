@@ -1,0 +1,74 @@
+#root {
+    margin: 0 auto;
+    text-align: center;
+}
+.MuiTooltip-tooltip {
+    background-color: #fff !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    max-width: none !important;
+    border: 1px solid #dadde9 !important;
+}
+.MuiTooltip-arrow {
+    font-size: 20;
+    color: white !important;
+}
+.MuiTooltip-arrow::before {
+    background-color: white;
+    border: 2px solid #e6e8ed;
+}
+
+#search-flight {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background-color: #072f48;
+}
+.icon-button {
+    padding: 0.7em 0.5em !important;
+    background: #e51c34 !important;
+    border-radius: 4px !important;
+}
+.chip {
+    border-radius: 4px !important;
+    padding: 1em 2em !important;
+}
+.flight-list-button {
+    margin: 0.5em !important;
+    color: white !important;
+    border-color: 'white' !important;
+}
+.flight-list-button:hover {
+    border-color: 'white' !important;
+}
+.flight-pick-button {
+    align-self: flex-end;
+    width: -webkit-fill-available;
+    background-color: #e81933 !important;
+    color: white !important;
+}
+.flight-pick-button:disabled {
+    background-color: #d9e0e8 !important;
+    color: #acb3bd !important;
+}
+.flight-pick-button:hover {
+    background-color: #e81933 !important;
+}
+.filter-buttons {
+    margin: 0.5em !important;
+    color: white !important;
+    border-color: white !important;
+    text-transform: none !important;
+}
+.filter-buttons:hover {
+    border-color: white !important;
+}
+.return-button {
+    color: white !important;
+    padding: 10px 20px !important;
+    background: #e51c34 !important;
+}
+.return-button:hover {
+    background-color: #e81933 !important;
+}
